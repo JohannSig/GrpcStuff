@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcService", "GrpcService.csproj", "{13D9A30E-54C9-4B83-8F1C-91733D8903E8}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "GrpcShared", "..\GrpcShared\GrpcShared.shproj", "{7ABA93AA-D6E8-4D88-9956-71EC911F0E97}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\GrpcShared\GrpcShared.projitems*{13d9a30e-54c9-4b83-8f1c-91733d8903e8}*SharedItemsImports = 5
+		..\GrpcShared\GrpcShared.projitems*{7aba93aa-d6e8-4d88-9956-71ec911f0e97}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13D9A30E-54C9-4B83-8F1C-91733D8903E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D9A30E-54C9-4B83-8F1C-91733D8903E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D9A30E-54C9-4B83-8F1C-91733D8903E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D9A30E-54C9-4B83-8F1C-91733D8903E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {403015E5-466A-4E7D-A05D-EF54D72F2E3A}
+	EndGlobalSection
+EndGlobal
